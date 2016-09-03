@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Einkaufsliste</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container content-container">
+
+      <div class="starter-template">
+        <form class="form-inline">
+            <h1>Was möchten Sie heute einkaufen?</h1>
+            <input type="text" class="form-control" id="new-item" placeholder="Milch">
+            <button type="button" class="btn btn-default" id="add-button">Hinzufügen</button>
+        </form>
+        <ul class="list-group" id="items">
+            <li class="list-group-item">Milch</li>
+        </ul> 
+      </div>
+
+    </div><!-- /.container -->
+    
+    
+    <style>
+        #items {
+            margin-top: 10px;
+        }
+        
+        #items li {
+            cursor: pointer;
+            font-size: 2em;
+        }
+        
+        #items li:hover:not(.ok) {
+            background-color: #337ab7;
+            color: #fff;
+        }
+        
+        #items .ok {
+            cursor: default;
+            text-decoration:line-through;
+            background-color: #ccc;
+            color: #666;
+        }
+        
+        .content-container {
+            margin-top: 50px;
+        } 
+    </style>
+    
+    <script type="text/javascript" src="app.js"></script>
+        
+    </body>
+</html>
