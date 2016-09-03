@@ -1,0 +1,6 @@
+{
+  "name": "Javascript Dojo",
+  "tagline": "train your JS-fu",
+  "body": "### Willkommen im Javascript Dojo\r\nAuf dieser Seite befinden sich Trainingsaufgaben, die dir helfen deine Javascript-Fähigkeiten zu verbessern.\r\n\r\n### How-to\r\nDie hier beschriebenen Aufgaben befinden sich in jeweils einem Unterordner dieses [Github-Repositories](https://github.com/markus-wi/js-dojo). Nach dem du dich einer der Übungen gestellt hast, schicke mir bitte einen Pull-Request, so dass wir deine Lösung gemeinsam besprechen können. Wie du einen Pull-Request erstellst, ist hier beschrieben: [Forking Github Projects](https://guides.github.com/activities/forking/)\r\n\r\nHappy hacking :)\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
