@@ -35,13 +35,13 @@
           <span class="credits left">Project maintained by <a href="https://github.com/markus-wi">markus-wi</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
-        
+
         <h3>
           <a id="willkommen-im-javascript-dojo" class="anchor" href="#willkommen-im-javascript-dojo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Willkommen im Javascript Dojo
         </h3>
-        
+
         <p>Auf dieser Seite befinden sich Trainingsaufgaben, die dir helfen deine Javascript-Fähigkeiten zu verbessern.</p>
-        
+
         <img src="images/dojo.jpg" style="">
 
 
@@ -52,10 +52,10 @@
 
 <p>Happy hacking :)</p>
       </section>
-      
+
       <section>
         <div>
-          <h3>Aufgabe 1 - Einkaufsliste <a href="https://github.com/markus-wi/js-dojo/tree/master/exercises/exercise1">(Link)</a></h3> 
+          <h3>Aufgabe 1 - Einkaufsliste <a href="https://github.com/markus-wi/js-dojo/tree/master/exercises/exercise1">(Link)</a></h3>
           <h3>Dauer: 30 - 45 Minuten</h3>
           <p>
             In dieser Aufgabe geht es darum, die Applikationslogik einer bestehenden HTML-Seite zu erstellen.
@@ -82,11 +82,48 @@
           </ul>
           <h4>Themengebiete der Aufgabe:</h4>
           <p>jQuery, DOM-Manipulation, IIFE, global namespace</p>
-        </div>        
+        </div>
       </section>
+
+			<section>
+				<h3>Aufgabe 2 - Einkaufsliste Part2 <a href="https://github.com/markus-wi/js-dojo/tree/master/exercises/exercise2">(Link)</a></h3>
+				<h3>Dauer: 30 - 45 Minuten</h3>
+				<p>
+					Diese Aufgabe baut auf die vorhergehende Aufgabe auf. Du kannst also deine Lösung für Aufgabe1 in die "app.js" Datei kopieren.
+					Um unsere Einkaufsleiste zu verbessern möchten wir nun das Speichern der Daten implementieren. Der Webbrowser bietet mit dem
+					HTML5 Standard 2 Storage-Möglichkeiten die es erlauben Daten auf Seiten des Clients zu speichern.
+					Ziel dieser Aufgabe ist es eine der 2 Storage-Möglichkeiten zu wählen und anschließend das Speichern und Laden der Daten
+					zu implementieren. Dabei bietet es sich an, die einzelnen Objekte (Models) als Klasse zu definieren.
+				</p>
+				<ul>
+						<li> Eine Einkaufsliste enthält mehrere Artikel </li>
+						<li> Ein Artikel besitzt einen Namen und einen Zustand, der darauf schließen lässt, ob der Artikel abgehakt ist </li>
+						<li> Alle Objekte (Models) sollen über ein Erstellungs- und Bearbeitungsdatum verfügen </li>
+				</ul>
+				<h4>Regeln:</h4>
+          <ul>
+            <li>Der Code muss sich in der "app.js" befinden</li>
+            <li>jQuery ist eingebunden und darf benutzt werden</li>
+            <li>Die index.html darf nicht bearbeitet werden</li>
+            <li>Es dürfen keine weiteren Dateien erstellt werden</li>
+            <li>"Don't pollute the global namespace!"</li>
+            <li>Die Daten (Models) sollen als Klasse definiert werden</li>
+          </ul>
+				<h4>Entwicklung:</h4>
+          <p>Für diese Aufgabe benötigen wir keinen Webserver. Die "index.html" kann also direkt vom Filesystem im Browser geöffnet werden</p>
+          <h4>Information / Hilfestellung / Hinweise:</h4>
+          <ul>
+						<li><a href="https://developer.mozilla.org/de/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">https://developer.mozilla.org/de/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API">https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API">https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API</a></li>
+          </ul>
+        <h4>Themengebiete der Aufgabe:</h4>
+          <p>Objekt Orientierung, Klassen, Vererbung, Prototypal Inheritance, Local / Session Storage</p>
+			</section>
+
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
   </body>
 </html>
